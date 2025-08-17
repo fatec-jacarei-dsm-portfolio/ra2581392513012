@@ -1,7 +1,3 @@
-# ra2581392513012
-Repositório do aluno LUCAS CAUA SOARES DE PAIVA.
-
-
 # Portfólio de Projetos - Fatec Jacareí
 ### Aluno: Lucas Cauã Soares de Paiva
 ### Curso: Desenvolvimento de Software Multiplataforma
