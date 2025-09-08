@@ -1,11 +1,153 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Portfólio - LUCAS CAUA SOARES DE PAIVA</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio - Lucas Paiva</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
+  <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
-    <h1>Bem vindo ao Portfólio de LUCAS CAUA SOARES DE PAIVA</h1>
+  <header>
+  <nav class="container">
+    <h1>Portfólio </h1>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#atividades">Atividades</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#certificacoes">Certificações</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <!-- HERO / SOBRE -->
+<section id="sobre" class="hero-modern">
+  <div class="hero-left">
+    <h1><span class="highlight">Software</span> Developer</h1>
+    <p>
+      Apaixonado por tecnologia, estou cursando <strong>Desenvolvimento de Software Multiplataforma</strong> e me especializando em <strong>backend</strong>, criando soluções eficientes e escaláveis.
+    </p>
+    <p>
+      Também tenho experiência em <strong>frontend</strong>, desenvolvendo interfaces modernas e responsivas com <strong>HTML, CSS, JavaScript e React</strong>.
+    </p>
+    <p>
+      Busco aprender novas tecnologias e aplicar meus conhecimentos em projetos que valorizem <strong>experiência do usuário, qualidade de código e colaboração em equipe</strong>.
+    </p>
+    <div class="social-icons">
+      <a href="https://github.com/Lucaspaiva11" target="_blank"><i data-feather="github"></i></a>
+      <a href="https://www.linkedin.com/in/lucaspaiva11/" target="_blank"><i data-feather="linkedin"></i></a>
+      <a href="mailto:lcaua5786@gmail.com"><i data-feather="mail"></i></a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="foto-box">
+      <img src="./imagens/perfil.jpeg" alt="Foto de perfil" class="perfil-modern"/>
+    </div>
+  </div>
+</section>
+
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="section">
+    <div class="container">
+      <h2>Projetos</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Projeto Acadêmico</h3>
+          <p>Um sistema desenvolvido para estudos acadêmicos, focado em banco de dados.</p>
+        </div>
+        <div class="card">
+          <h3>Projeto Pessoal</h3>
+          <p>Um site experimental onde testei novas tecnologias frontend.</p>
+        </div>
+        <div class="card">
+          <h3>Projeto Profissional</h3>
+          <p>Aplicação real utilizada por empresa parceira.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ATIVIDADES -->
+  <section id="atividades" class="section alt">
+    <div class="container">
+      <h2>Atividades Complementares</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2025</h3>
+            <p>Cursos online de desenvolvimento web</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Habilidades Técnicas</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <i data-feather="code"></i>
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript, React</p>
+          <div class="progress-bar"><span style="width: 50%"></span></div>
+        </div>
+        <div class="skill">
+          <i data-feather="database"></i>
+          <h3>Backend</h3>
+          <p>Node.js, Express, PostgreSQL</p>
+          <div class="progress-bar"><span style="width: 70%"></span></div>
+        </div>
+        <div class="skill">
+          <i data-feather="layers"></i>
+          <h3>Versionamento</h3>
+          <p>Git & GitHub</p>
+          <div class="progress-bar"><span style="width: 95%"></span></div>
+        </div>
+        <div class="skill">
+          <i data-feather="cpu"></i>
+          <h3>Outros</h3>
+          <p>Linux, Cloud</p>
+          <div class="progress-bar"><span style="width: 10%"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICACOES -->
+  <section id="certificacoes" class="section alt">
+    <div class="container">
+      <h2>Certificações & Cursos</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>HTML & CSS</h3>
+          <p>Curso concluído na plataforma Curso em vídeo (2025)</p>
+        </div>
+        <div class="card">
+          <h3>JavaScript Avançado</h3>
+          <p>Curso concluído na plataforma Hashtag Programação (2025)</p>
+        </div>
+        <div class="card">
+          <h3>Curso básico de Git</h3>
+          <p>Formação concluída na plataforma Cisco (2025)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 - desenvolvido por Lucas Paiva &#x1F4BB</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>feather.replace()</script>
 </body>
 </html>
