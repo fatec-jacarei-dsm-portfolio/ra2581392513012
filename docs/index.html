@@ -9,63 +9,94 @@
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
+  <!-- HEADER -->
   <header>
-  <nav class="container">
-    <h1>Portfólio </h1>
-    <ul>
-      <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#projetos">Projetos</a></li>
-      <li><a href="#atividades">Atividades</a></li>
-      <li><a href="#skills">Habilidades</a></li>
-      <li><a href="#certificacoes">Certificações</a></li>
-    </ul>
-  </nav>
-</header>
-
+    <nav class="container">
+      <h1>Portfólio</h1>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#atividades">Atividades</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#certificacoes">Certificações</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <!-- HERO / SOBRE -->
-<section id="sobre" class="hero-modern">
-  <div class="hero-left">
-    <h1><span class="highlight">Software</span> Developer</h1>
-    <p>
-      Apaixonado por tecnologia, estou cursando <strong>Desenvolvimento de Software Multiplataforma</strong> e me especializando em <strong>backend</strong>, criando soluções eficientes e escaláveis.
-    </p>
-    <p>
-      Também tenho experiência em <strong>frontend</strong>, desenvolvendo interfaces modernas e responsivas com <strong>HTML, CSS, JavaScript e React</strong>.
-    </p>
-    <p>
-      Busco aprender novas tecnologias e aplicar meus conhecimentos em projetos que valorizem <strong>experiência do usuário, qualidade de código e colaboração em equipe</strong>.
-    </p>
-    <div class="social-icons">
-      <a href="https://github.com/Lucaspaiva11" target="_blank"><i data-feather="github"></i></a>
-      <a href="https://www.linkedin.com/in/lucaspaiva11/" target="_blank"><i data-feather="linkedin"></i></a>
-      <a href="mailto:lcaua5786@gmail.com"><i data-feather="mail"></i></a>
+  <section id="sobre" class="hero-modern">
+    <div class="hero-left">
+      <h1><span class="highlight">Software</span> Developer</h1>
+      <p>
+        Apaixonado por tecnologia, estou cursando <strong>Desenvolvimento de Software Multiplataforma</strong> e me especializando em <strong>backend</strong>, criando soluções eficientes e escaláveis.
+      </p>
+      <p>
+        Também tenho experiência em <strong>frontend</strong>, desenvolvendo interfaces modernas e responsivas com <strong>HTML, CSS, JavaScript e React</strong>.
+      </p>
+      <p>
+        Busco aprender novas tecnologias e aplicar meus conhecimentos em projetos que valorizem <strong>experiência do usuário, qualidade de código e colaboração em equipe</strong>.
+      </p>
+      <div class="social-icons">
+        <a href="https://github.com/Lucaspaiva11" target="_blank"><i data-feather="github"></i></a>
+        <a href="https://www.linkedin.com/in/lucaspaiva11/" target="_blank"><i data-feather="linkedin"></i></a>
+        <a href="mailto:lcaua5786@gmail.com"><i data-feather="mail"></i></a>
+      </div>
     </div>
-  </div>
-  <div class="hero-right">
-    <div class="foto-box">
-      <img src="./imagens/perfil.jpeg" alt="Foto de perfil" class="perfil-modern"/>
+    <div class="hero-right">
+      <div class="foto-box">
+        <img src="./imagens/perfil.jpeg" alt="Foto de perfil" class="perfil-modern"/>
+      </div>
     </div>
-  </div>
-</section>
-
+  </section>
 
   <!-- PROJETOS -->
   <section id="projetos" class="section">
     <div class="container">
       <h2>Projetos</h2>
+
+      <!-- Projetos Acadêmicos -->
+      <h3 class="projetos-titulo">Acadêmicos</h3>
       <div class="grid">
         <div class="card">
-          <h3>Projeto Acadêmico</h3>
-          <p>Um sistema desenvolvido para estudos acadêmicos, focado em banco de dados.</p>
+          <img src="./imagens/projetoABP.png" alt="Imagem do Projeto Acadêmico" class="projeto-img"/>
+          <h4>Sistema Acadêmico</h4>
+          <p>Projeto de estudo de banco de dados e integração backend/frontend.</p>
+          <a href="https://github.com/prjDevflow/Index" target="_blank">Ver Projeto</a>
         </div>
         <div class="card">
-          <h3>Projeto Pessoal</h3>
-          <p>Um site experimental onde testei novas tecnologias frontend.</p>
+          <h4>Projeto de Algoritmos</h4>
+          <p>Implementação de algoritmos e estruturas de dados em JavaScript.</p>
+          <a href="#" target="_blank">Ver Projeto</a>
+        </div>
+      </div>
+
+      <!-- Projetos Pessoais -->
+      <h3 class="projetos-titulo">Pessoais</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>Portfólio Pessoal</h4>
+          <p>Site pessoal para exibir projetos e habilidades técnicas.</p>
+          <a href="#" target="_blank">Ver Projeto</a>
         </div>
         <div class="card">
-          <h3>Projeto Profissional</h3>
-          <p>Aplicação real utilizada por empresa parceira.</p>
+          <h4>App de Tarefas</h4>
+          <p>Aplicativo web para organizar tarefas usando React e localStorage.</p>
+          <a href="#" target="_blank">Ver Projeto</a>
+        </div>
+      </div>
+
+      <!-- Projetos Profissionais -->
+      <h3 class="projetos-titulo">Profissionais</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>Dashboard Empresarial</h4>
+          <p>Aplicação real utilizada por empresa parceira para gestão de dados.</p>
+          <a href="#" target="_blank">Ver Projeto</a>
+        </div>
+        <div class="card">
+          <h4>API de Cadastro</h4>
+          <p>API desenvolvida em Node.js e PostgreSQL para integração interna.</p>
+          <a href="#" target="_blank">Ver Projeto</a>
         </div>
       </div>
     </div>
@@ -87,7 +118,7 @@
     </div>
   </section>
 
-    <!-- SKILLS -->
+  <!-- SKILLS -->
   <section id="skills" class="section">
     <div class="container">
       <h2>Habilidades Técnicas</h2>
@@ -140,7 +171,6 @@
       </div>
     </div>
   </section>
-
 
   <!-- FOOTER -->
   <footer>

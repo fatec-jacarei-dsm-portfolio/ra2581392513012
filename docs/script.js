@@ -9,7 +9,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 });
 
 // Animações de entrada
-const elementos = document.querySelectorAll(".card, .timeline-content, .hero-left, .hero-right, .contato-form");
+const elementos = document.querySelectorAll(".card, .timeline-content, .hero-left, .hero-right, .projetos-titulo");
 
 const aparecer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
