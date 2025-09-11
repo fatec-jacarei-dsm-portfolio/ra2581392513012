@@ -139,6 +139,10 @@ header a:hover {
   margin: auto;
 }
 
+h4 {
+  color: var(--secundaria);
+}
+
 /* GRID PROJETOS */
 .grid {
   display: grid;
@@ -333,3 +337,23 @@ footer {
     margin-bottom: 2rem;
   }
 }
+
+.card-img-box {
+  width: 100%;
+  height: 180px; /* altura fixa do card */
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.projeto-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* mantém proporção e corta apenas o que sobra */
+  transition: transform 0.3s ease;
+}
+
+.card-img-box:hover .projeto-img {
+  transform: scale(1.05); /* efeito sutil de zoom ao passar o mouse */
+}
+
